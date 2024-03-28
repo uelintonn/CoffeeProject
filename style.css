@@ -37,7 +37,9 @@ section {
     left: 0;
     right: 0;
     z-index: 99;
-    border-bottom: var(--border)
+    border-bottom: var(--border);
+    background-color: var(--bg);
+
 }
 
 .header section {
@@ -49,12 +51,11 @@ section {
 }
 
 .navbar a {
-    margin: 0 1rem;
+    margin: 0 2.5rem;
     font-size: 2.5rem;
     color: #fff;
     font-family: "Dancing Script", cursive;
-
-}
+ }
 
 .navbar a:hover {
     color: var(--main-color);
@@ -84,12 +85,15 @@ section {
     display: inline-block;
 }
 
+.btn:hover {
+    letter-spacing: 0.05rem;
+}
 .home-conteiner {
     background: url("./Assets/home-img.jpg");
     background-position: center;
     background-size: cover;
     height: 90rem;
-}
+    }
 
 .home-conteiner section {
     display: flex;
@@ -113,3 +117,44 @@ section {
     line-height: 1.8;
     padding: 1rem 0;
 }
+
+.title {
+    font-size: 4rem;
+    color: var(--main-color);
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 4rem;
+    font-family: "Dancing Script", cursive;
+}
+
+.title span {
+    color: #fff;
+    text-transform: uppercase;
+    font-family: "Dancing Script", cursive;
+}
+
+
+.about .row {
+    display: flex;
+    align-items: center;
+    background-color: var(--balck);
+    gap: 1.5rem;
+}
+
+.about .row .content {
+    padding: 2rem;
+
+}
+
+.about .row .content .h3 {
+    font-size: 3rem;
+    color: #fff;
+}
+
+.about .row .content .p {
+    font-size: 1.6rem;
+    color: #fff;
+    padding: 1rem 0;
+    line-height: 1.8;
+}
+
