@@ -50,7 +50,7 @@ section {
 
 .navbar a {
     margin: 0 1rem;
-    font-size: 1.8rem;
+    font-size: 2.5rem;
     color: #fff;
     font-family: "Dancing Script", cursive;
 
@@ -60,7 +60,7 @@ section {
     color: var(--main-color);
     border-bottom: 0.1rem solid var(--main-color);
     padding-bottom: 0.5rem;
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 .icons img {
@@ -71,4 +71,45 @@ section {
 .icons img:hover {
     width: 40px;
     height: 40px;
+}
+
+.btn {
+    background-color: var(--main-color);
+    color: #fff;
+    padding: 1rem 3rem;
+    display: inline-block;
+    font-size: 1.7rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    display: inline-block;
+}
+
+.home-conteiner {
+    background: url("./Assets/home-img.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 90rem;
+}
+
+.home-conteiner section {
+    display: flex;
+    align-items: center;
+    min-height: 90rem;
+}
+
+.content {
+    max-width: 60rem;
+}
+
+.content h3 {
+    color: #fff;
+    font-size: 6rem;
+}
+
+.content p {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 100;
+    line-height: 1.8;
+    padding: 1rem 0;
 }
