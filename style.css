@@ -55,7 +55,7 @@ section {
     font-size: 2.5rem;
     color: #fff;
     font-family: "Dancing Script", cursive;
- }
+}
 
 .navbar a:hover {
     color: var(--main-color);
@@ -88,12 +88,13 @@ section {
 .btn:hover {
     letter-spacing: 0.05rem;
 }
+
 .home-conteiner {
     background: url("./Assets/home-img.jpg");
     background-position: center;
     background-size: cover;
     height: 90rem;
-    }
+}
 
 .home-conteiner section {
     display: flex;
@@ -158,3 +159,47 @@ section {
     line-height: 1.8;
 }
 
+.menu .box-conteiner {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 1.5rem;
+}
+
+.menu .box-conteiner .box {
+    text-align: center;
+    border: var(--border);
+    padding: 5rem;
+    cursor: pointer;
+}
+
+.menu .box-conteiner .box {
+    background-color: var(--balck);
+}
+
+.menu .box-conteiner .box img {
+    height: 10rem;
+}
+.menu .box-conteiner .box h3 {
+    color: #fff;
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+.menu .box-conteiner .box .price {
+    color: #fff;
+    font-size: 2.5rem;
+    padding: 0.5rem 0;
+}
+
+.menu .box-conteiner .box .price span {
+    font-size: 1.5rem;
+    text-decoration: line-through;
+    font-weight: lighter;
+}
+
+.menu .box-conteiner .box:hover>* {
+    color: #fff;
+}
+.menu .box-conteiner .box:hover>*{
+    color: var(--balck);
+}
